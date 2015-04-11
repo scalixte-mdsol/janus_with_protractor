@@ -1,0 +1,8 @@
+apps:
+    app: <%= configured.app %>
+    environment: <%= configured.environment %>
+    username: <%= configured.username %>
+    password: <%= configured.password %>
+    login: <%= configured.login_url %>
+    imedidata: <%= configured.base_url %>
+    all studies: <%= configured.studies_url %>

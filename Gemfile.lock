@@ -58,6 +58,7 @@ GEM
       nokogiri (~> 1.5)
       rails (>= 3, < 5)
     daemon_controller (1.2.0)
+    database_cleaner (1.4.1)
     dice_bag (0.8.0)
       rake
     diff-lcs (1.2.5)
@@ -173,6 +174,7 @@ DEPENDENCIES
   capybara (~> 2.4)
   coffee-rails (~> 3.2.1)
   cucumber-rails (~> 1.4)
+  database_cleaner (~> 1.4)
   dice_bag (~> 0.8.0)
   factory_girl (~> 4.4)
   faker (~> 1.4)
