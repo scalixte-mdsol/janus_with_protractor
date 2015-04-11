@@ -14,7 +14,8 @@
 /log/*.log
 /tmp
 features/support/*.yml
-.sh
+*/**/*.sh
+*.sh
 .idea/
 .gitkeep
 */**/.gitkeep
