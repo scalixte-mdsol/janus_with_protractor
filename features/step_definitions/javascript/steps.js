@@ -2,26 +2,25 @@
  * Created by scalixte on 4/15/15.
  */
 'use strict';
+var webdriver = webdriver || require('selenium-webdriver');
+var information = information || require('../../support/javascript/information');
+var support = support || require('../../support/javascript/support');
 
 var pc = require('protractor-cucumber');
 
 var steps = function() {
     var seleniumAddress = 'http://localhost:4444/wd/hub';
-    var options = { browser : 'chrome', timeout : 100000 };
+    var options = { browser : 'firefox', timeout : 100000 };
     this.World = pc.world(seleniumAddress, options);
 
     this.After(function(callback) {
-        console.log('done!!!')
-        this.quit(callback);
+        try {
+            this.quit(callback);
+        } catch (e) {
+            console.log(e);
+        }
     });
 
-    this.Given(/^I visit the ([^"]+) page for ([^"]+)$/, function (page, app, callback) {
-        //support.ignoreSynchronization(this, false, function (result) {});
-        console.log(support.browser);
-        //this.WebDriver.quit(callback);
-        //this.quit();
-
-    });
 };
 
 module.exports = steps;
