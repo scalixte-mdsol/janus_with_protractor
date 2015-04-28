@@ -8,9 +8,11 @@
     "test": "test"
   },
   "dependencies": {
+    "async": ">=0.2.10",
     "grunt": "^0.4.5",
     "js-yaml": "^3.2.7",
-    "protractor": "^2.0.0"
+    "protractor": ">=2.0.0",
+    "selenium-webdriver": ">=2.44.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,6 +23,7 @@
     "url": "https://github.com/scalixte-mdsol/janus_with_protractor.git"
   },
   "keywords": [
+    "async",
     "grunt",
     "janus",
     "protractor",
