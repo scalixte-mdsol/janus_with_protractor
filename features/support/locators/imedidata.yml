@@ -9,3 +9,11 @@ Imedidata:
     submit:
       text: 'Log in'
       button: '#create_session_link'
+  Header:
+    section:
+      panel: '#header'
+    signout:
+      link: '#user a[data-toggle="dropdown"]'
+      dropdown: '#user-dropdown'
+    logout:
+      link: 'li.logout #logout'
