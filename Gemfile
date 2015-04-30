@@ -22,7 +22,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'dice_bag', '~> 0.8.0'
+gem 'dice_bag', '~> 0.8'
+gem 'memoize', '~> 1.3'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -46,7 +47,7 @@ group :development, :test do
 	gem 'rspec-rails', '~> 3.1'
 	gem 'capybara', '~> 2.4'
 	gem 'cucumber-rails', '~> 1.4', require: false
-	gem 'selenium-webdriver', '~> 2.45'
+	gem 'selenium-webdriver', '~> 2.4'
 	gem 'database_cleaner', '~> 1.4'
 end
 

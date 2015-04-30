@@ -15,6 +15,10 @@ module JanusHelper
       click_button selector['submit']['text']
     end
 
+    def logout
+
+    end
+
     private
 
     def mapper
