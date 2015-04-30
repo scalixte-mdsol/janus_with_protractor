@@ -52,7 +52,7 @@ var common_steps = function() {
         });
     });
 
-    this.Then(/^I pause"$/, function(callback) {
+    this.Then(/^I pause$/, function (callback) {
         support.pause(this, function(){});
     });
 
