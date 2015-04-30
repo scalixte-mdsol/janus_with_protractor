@@ -16,4 +16,4 @@ Imedidata:
       link: '#user a[data-toggle="dropdown"]'
       dropdown: '#user-dropdown'
     logout:
-      link: 'li.logout #logout'
+      link: '#logout'

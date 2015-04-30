@@ -19,6 +19,11 @@ Support.prototype.driver = function(sut){
     return sut.browser.driver;
 };
 
+Support.prototype.exit = function(sut, callback){
+    if (callback === undefined){sut.browser.driver.quit();}
+    else {callback().then(function(result){sut.browser.driver.quit();});}
+};
+
 Support.prototype.findByName = function(sut, item, callback){
     sut.browser.driver.findElement(webdriver.By.name(item)).then(function(result) {
         callback(result);
