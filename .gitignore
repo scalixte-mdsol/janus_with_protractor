@@ -14,8 +14,12 @@
 /log/*.log
 /tmp
 features/support/*.yml
+config.sh
+node_modules/
 */**/*.sh
 *.sh
 .idea/
 .gitkeep
 */**/.gitkeep
+node_modules/
+*.log

@@ -1,0 +1,38 @@
+{
+  "name": "janus_with_protractor",
+  "version": "1.0.0",
+  "description": "This repo is design to benchmark comparing end to end testing with both javascript and protractor",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "async": ">=0.2.10",
+    "grunt": "^0.4.5",
+    "js-yaml": "^3.2.7",
+    "protractor": ">=2.0.0",
+    "selenium-webdriver": ">=2.44.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scalixte-mdsol/janus_with_protractor.git"
+  },
+  "keywords": [
+    "async",
+    "grunt",
+    "janus",
+    "protractor",
+    "cucumber"
+  ],
+  "author": "Stanley Calixte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scalixte-mdsol/janus_with_protractor/issues"
+  },
+  "homepage": "https://github.com/scalixte-mdsol/janus_with_protractor"
+}

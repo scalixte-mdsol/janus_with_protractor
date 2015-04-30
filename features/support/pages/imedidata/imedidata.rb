@@ -22,3 +22,4 @@ module JanusHelper
     end
   end
 end
+World(JanusHelper)
