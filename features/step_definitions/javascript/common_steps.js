@@ -52,6 +52,10 @@ var common_steps = function() {
         });
     });
 
+    this.Then(/^I pause"$/, function(callback) {
+        support.pause(this, function(){});
+    });
+
 };
 
 module.exports = common_steps;
